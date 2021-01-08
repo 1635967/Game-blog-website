@@ -1,0 +1,539 @@
+/*Tag level*/
+body
+{
+    background-image:repeating-radial-gradient(rgb(36, 36, 36), #242425);
+
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+a
+{
+	text-decoration: none;
+    color: black;
+}
+/*Class level*/
+/*Common Stle*/
+
+.logo
+{
+    /*background-color: rgb(0,150,255);*/
+    background-image: repeating-radial-gradient(rgb(132, 132, 132), #3e3e3e);
+}
+
+.logo img
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.toolbar
+{
+    background-color: rgb(62, 62, 63);
+    text-align: center;
+}
+
+.toolbar a
+{
+    padding: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.newsLink h1,a
+{
+
+    color:black;
+    text-decoration: none;
+}
+
+.newsLink :hover
+{
+    text-decoration-color: lightgreen;
+}
+
+.partition, .partition2
+{
+    background-color: rgb(0,0,0);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.partition2 a{
+    color: white;
+}
+
+.content
+{
+    display: table;
+
+}
+
+
+
+/*Home style*/
+
+.wrapper
+{
+    background-color:#E1E1E1;
+    display: table;
+    width: 100%;
+}
+
+.news,.games,.about
+{
+    display: table-cell;
+    display:inline-block;
+    /*    how to centerize?*/
+}
+
+.news img{
+    display: block;
+    width: 500px;
+    height: auto;
+    vertical-align: middle;
+
+}
+
+
+.newsWrapper
+{
+    /*	width: 100%;*/
+}
+
+.partition2 a:hover
+{
+    color: lightgreen;
+    /*border-style: solid;*/
+    /*width: 2px;*/
+}
+
+/*Games style*/
+.gamesWrapper
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+/** ---------------------------------------------------------------Games Page ------------------------------------------------------------**/
+
+.gamesContent {
+    background-color:#E1E1E1;
+}
+
+.gamePage {
+    padding: 50px 0px 0px 190px;
+}
+
+.gameHeding {
+    padding: 0px 190px 30px 0px;
+    text-align: center;
+    font-family: "Verdana";
+}
+
+.gamePortion {
+    display: inline-block;
+    text-align: center;
+    margin:0px 0px 20px 50px;
+}
+
+.gameLink:link {color: #000000;text-decoration:none;}
+.gameLink:visited {color:#0000ff;}
+.gameLink:hover {color:#ff0000;}
+
+.gameLink:hover img {
+    opacity: 0.7;
+
+}
+
+.gamePortion img {
+    display: block;
+    width: 250px;
+    height: 390px;
+}
+
+.caption {
+    display: block;
+}
+/**------------------------------------------------------------------ End Games Page------------------------------------------------------------- **/
+
+
+/**----------------- ---------------------------------------------Individual Game Page ---------------------------------------------------------**/
+
+.OneGames {
+    padding: 100px 85px 0px 100px;
+}
+
+.gameCover{
+
+}
+
+.gameCover img{
+    vertical-align:middle;
+    width: 400px;
+    height: 600px;
+}
+
+
+.gameInformation {
+    vertical-align:middle;
+    display:inline-block;
+    padding: 0 0 0 200px;
+}
+
+.gameRating{
+    padding: 10px 0px 60px 0px;
+
+}
+
+.gamehead {
+    vertical-align:middle;
+    display:inline-block;
+    padding: 0px 120px 0px 0px;
+}
+
+.gameRating img{
+    vertical-align:middle;
+    width: 60px;
+    height: 60px;
+}
+
+.gameRatingNum {
+    vertical-align:middle;
+    display:inline-block;
+    padding: 0px 50px 0px 5px;
+}
+
+.gameDescription {
+    padding: 40px 0 0 0;
+}
+
+
+.hed {
+    padding: 40px 0 0 0;
+    text-align:center;
+}
+
+.gameImage{
+    padding: 40px 0 0 0;
+}
+
+.Image:hover img {
+    opacity: 0.7;
+
+}
+
+.gameImage img{
+    width: 380px;
+    height: 250px;
+    display: inline-block;
+}
+
+
+
+.slideshow-container {
+    max-width: 700px;
+    position: relative;
+    margin:auto;
+
+
+}
+
+/* Next & previous buttons */
+.Gameprev, .Gamenext {
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    width: auto;
+    padding: 20px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+.Gamenext {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.Gameprev:hover, .Gamenext:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Number text (1/3 etc) */
+.Gamenumbertext {
+    background-color: rgba(0,0,0,0.8);
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 87px;
+}
+
+.gameVideo {
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+
+/** -------------------------------------------------------------------End Individual Game Page------------------------------------------------- **/
+
+
+
+/** ---------------------------------------------------------------------contact Page---------------------------------------------------------- **/
+
+.contactContent {
+    background-color: #e8e8e8;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    margin:auto;
+    width: 40%;
+    background-color:#E1E1E1;
+}
+
+.container h3{
+    color: #F96;
+    display: block;
+    font-size: 30px;
+}
+.container h4{
+    margin:5px 0 15px;
+    display:block;
+    font-size:13px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input, select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    display:block;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/** -----------------------------------------------------------------End contact Page----------------------------------------------------------- **/
+
+
+/** -----------------------------------------------------------------Games Release Dates Page----------------------------------------------------------- **/
+.ReleaseDatesContent {
+    background-color:#E1E1E1;
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin:auto;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+
+}
+
+/** -----------------------------------------------------------------End Games Release Dates Page-------------------------------------------------------- **/
+
+
+/** -----------------------------------------------------------------Picture Gallery Page----------------------------------------------------------- **/
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.GalleryContainer {
+    max-width:1200px;
+    position: relative;
+    margin:auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.Galleryprev,
+.Gallerynext {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    padding: 25px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+.Gallerynext {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.Galleryprev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.Galleryprev:hover,
+.Gallerynext:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.Gallerynumbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 10%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+/** -----------------------------------------------------------------End Picture Gallery Page----------------------------------------------------------- **/
+
+
+/** -----------------------------------------------------------------About Our Site Page----------------------------------------------------------- **/
+
+.AboutOurSiteContent {
+
+    text-align:center;
+    background-color:#E1E1E1;
+
+
+}
+
+/** -----------------------------------------------------------------End About Our Site Page-------------------------------------------------------- **/
+
+/*News*/
+.news
+{
+    background-color: #ffffff;
+    width: 100%;
+    font-family: Arial;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-width: auto;
+    text-indent: 20px;
+    border-color: rgb(223, 223, 224);
+}
+
+
+
+.footer
+{
+    position: relative;
+    background-image:repeating-radial-gradient(rgb(52, 52, 53), #343434);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.linkInfooter {
+
+    text-align: center;
+}
+.linkInfooter a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+/*About style*/
+
+.about
+{
+    background-color: #dfdfe0;
+    text-indent: 20px;
+    text-decoration: none;
+    border-left-style: solid;
+    border-width: 10px;
+    text-indent: 20px;
+    border-color: #dfdfe0;
+}
